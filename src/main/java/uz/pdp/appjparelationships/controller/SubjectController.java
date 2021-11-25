@@ -24,7 +24,6 @@ public class SubjectController {
     }
 
     //READ
-//    @RequestMapping(method = RequestMethod.GET)
     @GetMapping
     public List<Subject> getSubjects() {
         List<Subject> subjectList = subjectRepository.findAll();

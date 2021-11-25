@@ -20,6 +20,9 @@ public class Group {
 
     @ManyToOne//MANY group TO ONE faculty
     private Faculty faculty;
+
+    @ManyToOne
+    private Teacher teacher;
 //
 //    @OneToMany//ONE group TO MANY students
 //    private List<Student> students;
